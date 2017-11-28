@@ -1,0 +1,2 @@
+class NameCount < ApplicationRecord
+end
