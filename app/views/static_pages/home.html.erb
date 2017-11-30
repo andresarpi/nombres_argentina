@@ -1,3 +1,32 @@
+<form class="form-horizontal">
+    <div class="form-group">
+        <label class="col-md-2 col-md-offset-1 control-label left-control-label" for="year-chosen">Seleccionar año:</label>
+        <div class="col-md-8">
+            <select class="form-control" id="year-chosen" disabled>
+            <option value="-1">
+                Cargando...
+            </option>
+        </select>
+        </div>
+    </div>
+    <!---
+    <div class="form-group">
+        <div class="checkbox col-md-12">
+            <label>
+                <input id="rest-names-checkbox" type="checkbox"> Ver resto de los nombres
+            </label>
+        </div>
+    </div>
+    -->
+    
+    <button id="see-names-button" type="button" class="btn btn-default btn-lg">Ver nombres</button>
 
-main-div
+</form>
 
+<row>
+    <div id="svg-container-div" class="col-xs-10 col-xs-offset-1">
+        <svg id="svg" width="100%" height="100%">
+            
+        </svg>
+    </div>
+</row>
